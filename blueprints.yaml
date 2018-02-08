@@ -1,15 +1,15 @@
 name: Jupiter
 version: 0.1.0
-description: simple theme, one page.
-icon: rebel
+description: simple theme, one page. Based on Stellar by HTML5 UP.
+icon: html5
 author:
   name: Anderson Melo
   email: anderson.90@gmail.com
-homepage: https://github.com/anderson-melo/grav-theme-jupiter
-demo: http://demo.yoursite.com
-keywords: grav, theme, etc
-bugs: https://github.com/anderson-melo/grav-theme-jupiter/issues
-readme: https://github.com/anderson-melo/grav-theme-jupiter/blob/develop/README.md
+homepage: https://github.com/andermelo/
+demo: https://github.com/andermelo/grav-theme-jupiter
+keywords: grav, theme, clean, html5, simple
+bugs: https://github.com/andermelo/grav-theme-jupiter/issues
+readme: https://github.com/andermelo/grav-theme-jupiter/blob/master/README.md
 license: MIT
 
 form:
