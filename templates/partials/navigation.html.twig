@@ -1,4 +1,4 @@
-<ul id="nav" class="nav">
+<ul>
        {% for page in pages.children %}
            {% if page.visible %}
                {% set current_page = (page.active or page.activeChild) ? 'current' : '' %}
