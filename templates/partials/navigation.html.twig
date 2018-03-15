@@ -1,19 +1,4 @@
 <ul>
-       {% for page in pages.children %}
-           {% if page.visible %}
-               {% set current_page = (page.active or page.activeChild) ? 'current' : '' %}
-               {% if 'home' in page.menu %}
-               <li> <a class="active" href="#home"> {{ page.menu }} </a> </li>
-               {% else %}
-               <li><a href="{{ page.url }}">{{ page.menu }}</a></li>
-               {% endif %}
-           {% endif %}
-       {% endfor %}
-       {% for mitem in site.menu %}
-           <li>
-               <a href="{{ mitem.link }}">{{ mitem.text }}</a>
-           </li>
-       {% endfor %}
        {% for module in page.collection() %}
            {% if not module.header.hidemenu %}
                {% set current_page = (module.active or module.activeChild) ? 'current' : '' %}
