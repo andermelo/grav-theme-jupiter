@@ -3,10 +3,10 @@
  {% for page in pages.children %}
    {% if page.visible %}
        {% set current_page = (page.active or page.activeChild) ? 'current' : '' %}
-       {% if 'home' in page.menu %}
+       {% if 'Home' in page.title %}
        <li> <a class="active" href="#home"> {{ page.menu }} </a> </li>
        {% else %}
-       <li><a class="active" href="#{{ page.title }}">{{ page.menu }}</a></li>
+       <li><a href="#{{ page.title }}">{{ page.menu }}</a></li>
        {% endif %}
    {% endif %}
  {% endfor %}
