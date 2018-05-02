@@ -1,4 +1,4 @@
-# Jupiter Theme
+# Jupiter Theme :bowtie:
 
 The **Jupiter** Theme is for [Grav CMS](http://github.com/getgrav/grav).  
 
