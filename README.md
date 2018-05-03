@@ -4,7 +4,7 @@ The **Jupiter** Theme is for [Grav CMS](http://github.com/getgrav/grav).
 
 ## Description
 
-simple theme, one page.
+simple theme.
 
 ## Based on
 Stellar by HTML5 UP
