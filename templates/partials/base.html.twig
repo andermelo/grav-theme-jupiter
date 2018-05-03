@@ -27,7 +27,7 @@
 
 {% endblock head %}
 </head>
-<body class="{{ page.header.body_classes }}">
+<body id="top" class="{{ page.header.body_classes }}">
   <!-- Wrapper -->
   <div id="wrapper">
     {% block header %}
@@ -35,7 +35,7 @@
               <span class="logo"><img src="{{ url('theme://images/logo.svg') }}" alt="" /></span>
               <h1>{{ config.site.title }}</h1>
               <p>Simple theme, one page.<br />
-              dev by <a href="https://github.com/andermelo/">@andermelo</a></p>
+              dev by <a target="_blank" href="https://github.com/andermelo/">@andermelo</a></p>
             </header>
     {% endblock %}
 
@@ -52,14 +52,11 @@
         <div class="spotlight">
           <div class="content">
             <header class="major">
-              <h2>Ipsum sed adipiscing</h2>
+              <h2>TITLE</h2>
             </header>
             {% block content %}{% endblock %}
-            <ul class="actions">
-              <li><a href="generic.html" class="button">Learn More</a></li>
-            </ul>
           </div>
-          <span class="image"><img src="images/pic01.jpg" alt="" /></span>
+          <span class="image"><img src="http://via.placeholder.com/350x250" alt="" /></span>
         </div>
       </section>
     {% endblock %}
