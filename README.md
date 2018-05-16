@@ -1,10 +1,10 @@
-# Jupiter Theme 
+# Jupiter Theme
 
 **Jupiter** Theme is for [Grav CMS](http://github.com/getgrav/grav).  
 
 ## Description
 
-simple theme.
+simple theme for Grav CMS.
 
 ## Based on
 Stellar by HTML5 UP
